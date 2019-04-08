@@ -18,7 +18,6 @@ yum install devtoolset-8-gcc
 scl enable devtoolset-8 bash
 which gcc
 gcc --version
-
 이후 아래 내용을 각 유저별 .bashrc 에 추가하면 C++17 사용 가능
 source /opt/rh/devtoolset-8/enable
 
