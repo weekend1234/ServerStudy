@@ -7,7 +7,8 @@ C++ Windows/Linux Server Study
 ServerConfig.ini 파일을 리눅스 쪽에 넣어줘야 돌아갑니다.
 
 * 리눅스 포트 열어주기
-firewall-cmd --zone=public --permanent --add-port=32452/tcp (32452에 ServerConfig.ini에서 입력해준 포트 입력)
+(32452에 ServerConfig.ini에서 입력해준 포트 입력)
+firewall-cmd --zone=public --permanent --add-port=32452/tcp 
 firewall-cmd --reload
 firewall-cmd --zone=public --list-all
 
